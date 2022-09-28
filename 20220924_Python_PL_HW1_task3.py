@@ -16,7 +16,7 @@ def get_revert_dict(old_dict, min_value, max_value):
     return reversed_dict
 
 def get_min_and_max_values(old_dict):
-    max_value = 0
+    max_value = -100000
     min_value = 100000
     for value in old_dict.values():
         if max_value < value:
